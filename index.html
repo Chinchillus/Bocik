@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dlaczego bocik to gej?</title>
+        <style type="text/css">
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family:  'Quicksand', sans-serif;;
+                font-weight: 400;
+				font-size: 100px;
+				
+			
+            }
+			 h1 {
+                font-family:  'Quicksand', sans-serif;;
+                font-weight: 400;
+				font-size: 40px;
+				padding: 5%;
+				text-align: center;
+				margin: auto;
+				
+            }
+            .welcome-section {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: #000;
+                overflow: hidden;
+            }
+            .welcome-section .content-wrap {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate3d(-50%, -50%, 0);
+            }
+            .welcome-section .content-wrap .fly-in-text {
+                list-style: none;
+            }
+            .welcome-section .content-wrap .fly-in-text li {
+                display: inline-block;
+                margin-right: 0px;
+                font-size: 5em;
+                color: #fff;
+                opacity: 1;
+                transition: all 1s ease;
+            }
+            .welcome-section .content-wrap .fly-in-text li:last-child {
+                margin-right: 0;
+            }
+            .welcome-section .content-wrap .enter-button {
+                display: block;
+                text-align: center;
+                font-size: 1em;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+                opacity: 1;
+                transition: all 1s ease 1s;
+            }
+            
+            .welcome-section.content-hidden .content-wrap .fly-in-text li { opacity: 0; }
+            .welcome-section.content-hidden .content-wrap .fly-in-text li:nth-child(1) { transform: translate3d(-100px, 0, 0); }
+            .welcome-section.content-hidden .content-wrap .fly-in-text li:nth-child(2) { transform: translate3d(100px, 0, 0); }
+            .welcome-section.content-hidden .content-wrap .enter-button { opacity: 0; transform: translate3d(0, -30px, 0); }
+            
+            @media (min-width: 400px) {
+                .welcome-section .content-wrap .fly-in-text li { font-size: 10em; }
+                .welcome-section .content-wrap .enter-button { font-size: 1.5em; }
+            }
+            html {
+  background-image: url('https://cdn.discordapp.com/attachments/911711676276019300/1021509388126670978/background.png');
+        </style>
+    </head>
+    <body>
+        
+        
+        <div class="welcome-section content-hidden">
+            <div class="content-wrap">
+                <ul href="#" class="enter-button" class="fly-in-text style="font-size: 40px; color:white">KLIKNIJ</ul>
+				
+				  				
+				 
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            
+            $(function() {
+                
+                var welcomeSection = $('.welcome-section'),
+                    enterButton = welcomeSection.find('.enter-button');
+                
+                setTimeout(function() {
+                    welcomeSection.removeClass('content-hidden');
+                }, 500);
+                
+                enterButton.on('click', function(e) {
+                    e.preventDefault();
+                    welcomeSection.addClass('content-hidden').fadeOut();
+                });
+                
+                
+            })();
+            
+            
+            
+        </script>
+
+    </body>
+	<h1>
+<li style="color:white">Bocik jest gejem, ponieważ często wykazuje tak zwane "gejowskie zaloty": wyzywanie innych od gejów i tym podobne, co jest normalne w środowisku LGBT. Drugi argument przemawiający za tym, że jest identyfikowany jako gej jest to, że jego kuzyn, który jest naczelnym gejem często u niego nocuje. W środowisku LGBT normą jest spanie ze sobą płci o tym samym oznaczeniu. Trzecim argumentem jest to, że często bywał przyłapywany na masturbacji do mężczyzn, takich jak palion. Myślę, że te trzy argumenty starcza, żeby móc wprost powiedzieć, że można go identyfikować jako osobę LGBT. - Ksawery</li>
+<li style="color:transparent"></li>
+<li style="color:white">Bocik – Dziecko z trzema ojcami, urodzone w (cenzura) roku. Ma ok. 160 cm wzrostu, dzianych starych i lubi świecące się jak psu jajca komputery. Bardzo często gra w grę komputerową o nazwie Minecraft w tryb „Bedwars”, używając zakazanego programu o nazwie „Autoclicker”.</li>	
+</li>	
+	</h1>
+</html>
